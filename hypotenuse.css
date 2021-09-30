@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+:root{
+
+    -width--break: 500px;
+}
+body{
+    text-align: center;
+    background-color: #FEFFFF;
+    font-family: 'Acme', sans-serif;
+}
+label{
+    font-size: 1.2rem;
+    color: #274644;
+}
+h1{
+    font-size: 3rem;
+    color: #2B7A78;
+    margin: 2rem;
+}
+#formula{
+    font-size: 1.5rem;
+    height: 2.8rem;
+    margin: 1rem;
+    background-color: #17252A;
+    border: 2px solid #274644;
+    color: #FEFFFF;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sides{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    font-size: 1rem;
+    padding-left: 10px;
+    height: 2.8rem;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FEFFFF;
+    border:2px solid #3AAFA9;
+    border-radius: 10px;
+}
+.sides:hover{
+    border: 2px solid #2B7A78;
+    
+}
+#hypotenuse-btn{
+    padding: 1rem 2rem;
+    background-color: #2B7A78;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #FEFFFF;
+    font-family: 'Acme', sans-serif;
+}
+#hypotenuse-btn:hover{
+    background-color: #FEFFFF;
+    border: 2px solid #2B7A78;
+    color:#2B7A78
+}
+#output{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+#error{
+    display: none;
+    font-size: 1rem;
+    background-color: rgb(250, 40, 40);
+    background-color: rgb(253, 226, 226);
+    padding: 1rem 2rem; 
+    margin-bottom: .5rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}

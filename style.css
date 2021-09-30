@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: #FEFFFF;
+    font-family: 'Acme', sans-serif;
+
+}
+nav{
+    height: 10vh;
+    background-color: #17252A;
+    
+}
+nav li{
+    display: inline;
+    padding: 1rem .5rem ;
+    color: #DEF2F1;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    line-height: 60px;
+}
+nav a{
+    text-decoration: none;
+    color: #DEF2F1;
+    padding: .5rem .5rem;
+    border-radius: 2                                                                                                                                        ;
+}
+a:active,a:hover{
+    border: 2px solid #3AAFA9;
+    transition: .5s;
+    color: #DEF2F1;
+}
+footer{
+    text-align: center;
+    background-color: #17252A;
+    bottom: 0%;
+    width: 100vw;
+    position: fixed;
+}
+footer a{
+    text-decoration: none;
+}
+footer p{
+    
+    font-weight: bold;
+    color: #DEF2F1;
+}
+#footer-links,li{
+    display:inline;
+    margin: .5rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #3AAFA9;
+}
