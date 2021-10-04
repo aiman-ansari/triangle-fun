@@ -35,6 +35,12 @@ a:active,a:hover{
     transition: .5s;
     color: #DEF2F1;
 }
+.main{
+    text-align: center;
+    margin: 10rem;
+    font-size: 2.5rem;
+    color: #17252A;
+}
 footer{
     text-align: center;
     background-color: #17252A;
